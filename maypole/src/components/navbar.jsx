@@ -47,7 +47,7 @@ export default function Navbar() {
                 Services
               </a>
             </li>
-            <li>
+            <li className="hidden">
               <a href="#reviews" className="hover:text-secondary">
                 Reviews
               </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
                 Services
               </a>
             </li>
-            <li className="p-4 border-b border-gray-200">
+            <li className="hidden p-4 border-b border-gray-200">
               <a href="#reviews" className="hover:text-secondary">
                 Reviews
               </a>
