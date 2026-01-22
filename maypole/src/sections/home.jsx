@@ -51,7 +51,7 @@ export default function Home() {
             Get Care Support <FaArrowRight className="inline" />
           </a>
           <a
-            href="tel:+233550693731"
+            href="tel:+233256060995"
             className="bg-transparent border border-white py-2 px-5 text-primary rounded-2xl hover:cursor-pointer hover:bg-white hover:border-primary transition-all duration-300 ease-out"
           >
             Call Us{" "}

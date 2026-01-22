@@ -53,7 +53,7 @@ export default function Contact() {
             <h3>Call Us Directly</h3>
             <p>Available during working hours</p>
             <p className="text-blue-400 ">
-              0550 693 731 <span className="text-white">/</span> 0551 254 573
+              025 606 0995 <span className="text-white">/</span> 025 606 0996
             </p>
           </motion.div>
           <motion.div
