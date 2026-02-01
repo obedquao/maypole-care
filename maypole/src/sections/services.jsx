@@ -104,9 +104,10 @@ export default function Services() {
         <ul className="flex flex-col gap-3 font-inter list-disc mt-8 ml-5">
           <li>Elderly Care</li>
           <li>Dementia Care</li>
+          <li>Palliative Care</li>
           <li>Physical Disabilities</li>
           <li>Learning Difficulties</li>
-          <li>Terminal Illness Care</li>
+
           <li>Behaviour That Challenges</li>
           <li>Companionship & Social Engagement</li>
         </ul>

@@ -89,7 +89,7 @@ export default function About() {
           </li>
           <li className="relative inset-0 h-110 w-90 group overflow-hidden">
             <img
-              src="/images/compassionate.webp"
+              src="/images/passionate.webp"
               alt="compassionate image"
               className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
@@ -120,7 +120,7 @@ export default function About() {
           </li>
           <li className="relative inset-0 h-110 w-90 group overflow-hidden">
             <img
-              src="/images/empowerment.webp"
+              src="/images/empowering.webp"
               alt="Empowerment image"
               className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />

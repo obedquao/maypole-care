@@ -26,7 +26,7 @@ export default function Navbar() {
         >
           <a href="" className="flex gap-2 justify-center items-center">
             <img src="logo.png" alt="company logo" className="w-12 h-auto" />
-            <p className="text-secondary font-bold text-lg">
+            <p className="text-secondary font-extrabold text-3xl">
               Maypole <span className="text-primary">Care</span>{" "}
             </p>
           </a>
@@ -117,7 +117,7 @@ export default function Navbar() {
             </li>
             <li className="bg-white py-2 px-5 text-xs text-secondary rounded-2xl mb-2">
               <a
-                href="tel:+233550693731"
+                href="tel:+233256060995"
                 className="hover:text-primary font-bold text-lg"
               >
                 Book An Appointment
