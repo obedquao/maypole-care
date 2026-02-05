@@ -71,79 +71,84 @@ export default function About() {
           Our Values
         </h1>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-5 place-items-center">
-          <li className="relative inset-0 h-110 w-90 group overflow-hidden">
+          <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
               src="/images/care.webp"
               alt="care image"
-              className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
+              className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out "
             />
-            <div className="absolute bg-black/40 inset-0 transition-colors duration-700 ease-out group-hover:bg-black/40" />
-            <div className="absolute inset-0 flex  flex-col  justify-end p-5 gap-5 transition-all duration-700 group-hover:-translate-y-20">
-              <h2 className="text-white font-bold text-3xl">Care</h2>
-              <p className="text-white text-xl">
+            <div className=" flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
+              <h2 className="text-blue-500 font-bold text-3xl font-montserrat">
+                Care
+              </h2>
+              <p className="text-gray-700 text-base font-inter ">
                 We are committed to providing Person Centred Care: Choice,
                 Dignity, Respect, Privacy, Rights, Independence, and
                 Partnership.
               </p>
             </div>
           </li>
-          <li className="relative inset-0 h-110 w-90 group overflow-hidden">
+          <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
               src="/images/passionate.webp"
               alt="compassionate image"
-              className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
+              className="object-cover w-full h-67 group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
-            <div className="absolute bg-black/60 inset-0 transition-colors duration-700 ease-out group-hover:bg-black/40" />
-            <div className="absolute inset-0 flex  flex-col  justify-end p-5 gap-5 transition-all duration-700 group-hover:-translate-y-20">
-              <h2 className="text-white font-bold text-3xl">Compassionate</h2>
-              <p className="text-white text-xl">
+            <div className="flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
+              <h2 className="text-blue-500 font-bold text-3xl font-montserrat">
+                Compassionate
+              </h2>
+              <p className="text-gray-700 text-base font-inter pb-5">
                 Awareness of patients and their stories, attentiveness to their
                 immediate needs, noticing distress, and attentive listening.
               </p>
             </div>
           </li>
-          <li className="relative inset-0 h-110 w-90 group overflow-hidden">
+          <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
               src="/images/honesty.webp"
               alt="Honesty image"
               className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
-            <div className="absolute bg-black/60 inset-0 transition-colors duration-700 ease-out group-hover:bg-black/40" />
-            <div className="absolute inset-0 flex  flex-col  justify-end p-5 gap-5 transition-all duration-700 group-hover:-translate-y-20">
-              <h2 className="text-white font-bold text-3xl">Honesty</h2>
-              <p className="text-white text-xl">
+            <div className="flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
+              <h2 className="text-blue-500 font-bold text-3xl font-montserrat">
+                Honesty
+              </h2>
+              <p className="text-gray-700 text-base font-inter">
                 We are truthful, transparent, and accountable in all
                 interactions with patients, families, colleagues, and other
                 healthcare professionals.
               </p>
             </div>
           </li>
-          <li className="relative inset-0 h-110 w-90 group overflow-hidden">
+          <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
               src="/images/empowering.webp"
               alt="Empowerment image"
               className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
-            <div className="absolute bg-black/60 inset-0 transition-colors duration-700 ease-out group-hover:bg-black/40" />
-            <div className="absolute inset-0 flex  flex-col  justify-end p-5 gap-5 transition-all duration-700 group-hover:-translate-y-20">
-              <h2 className="text-white font-bold text-3xl">Empowering</h2>
-              <p className="text-white text-xl">
+            <div className="flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
+              <h2 className="text-blue-500 font-bold text-3xl font-montserrat">
+                Empowering
+              </h2>
+              <p className="text-gray-700 text-base font-inter">
                 We enable individuals to take control of their own health and
                 well-being, promoting autonomy, informed decision-making, and
                 active participation in their care.
               </p>
             </div>
           </li>
-          <li className="relative inset-0 h-110 w-90 group overflow-hidden">
+          <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
               src="/images/collaborative.webp"
               alt="Collaborative image"
               className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
-            <div className="absolute bg-black/60 inset-0 transition-colors duration-700 ease-out group-hover:bg-black/40" />
-            <div className="absolute inset-0 flex  flex-col  justify-end p-5 gap-5 transition-all duration-700 group-hover:-translate-y-20">
-              <h2 className="text-white font-bold text-3xl">Collaborative</h2>
-              <p className="text-white text-xl">
+            <div className="flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
+              <h2 className="text-blue-500 font-bold text-3xl font-montserrat">
+                Collaborative
+              </h2>
+              <p className="text-gray-700 text-base font-inter">
                 We work in Partnership with other healthcare providers and
                 multidisciplinary teams to plan and coordinate services,
                 providing evidence–based practice and ensuring that patients’
@@ -151,20 +156,20 @@ export default function About() {
               </p>
             </div>
           </li>
-          <li className="relative inset-0 h-110 w-90 group overflow-hidden">
+          <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
               src="/images/excellence.webp"
               alt="care image"
               className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
-            <div className="absolute bg-black/60 inset-0 transition-colors duration-700 ease-out group-hover:bg-black/40" />
-            <div className="absolute inset-0 flex  flex-col  justify-end p-5 gap-5 transition-all duration-700 group-hover:-translate-y-20">
-              <h2 className="text-white font-bold text-3xl">Excellence</h2>
-              <p className="text-white text-xl">
-                We are committed to maintaining the highest standards of care
-                through continuous training, evidence-based practice, and
-                ongoing improvement. Our goal is to consistently deliver safe,
-                reliable, and high-quality care that exceeds expectations.
+            <div className="flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
+              <h2 className="text-blue-500 font-bold text-3xl font-montserrat">
+                Excellence
+              </h2>
+              <p className="text-gray-700 text-base font-inter">
+                Dedicated to excellence, we combine continuous training with
+                evidence-based practices to deliver safe, reliable, and superior
+                care.
               </p>
             </div>
           </li>

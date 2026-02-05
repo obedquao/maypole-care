@@ -13,9 +13,28 @@ export default function Contact() {
         viewport={{ once: true }}
         className="p-10 bg-blue-900 text-white mx-5 my-20 md:m-20 md:rounded-4xl shadow-lg"
       >
-        <h1 className="border py-2 px-4 rounded-full w-fit font-bold text-sm mb-5">
-          ReachOutToUs
-        </h1>
+        <div className="flex flex-col md:flex-row justify-between mb-10 gap-10">
+          <h1 className="border py-2 px-4 rounded-full w-fit font-bold text-sm mb-5">
+            ReachOutToUs
+          </h1>
+          <div className="flex gap-5">
+            <a href="https://www.tiktok.com/@maypole.care?is_from_webapp=1&sender_device=pc">
+              <img
+                src="/icons/tiktok.png"
+                alt="tiktok icon"
+                className="w-8 h-8"
+              />
+            </a>
+            <a href="https://www.instagram.com/maypole.care/?utm_source=ig_web_button_share_sheet">
+              <img
+                src="/icons/instagram.png"
+                alt="instagram icon"
+                className="w-8 h-8"
+              />
+            </a>
+          </div>
+        </div>
+
         <h2 className="capitalize text-3xl font-inter font-bold">
           {" "}
           We Would Love to Hear from you
