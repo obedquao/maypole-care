@@ -72,7 +72,8 @@ export default function Contact() {
             <h3>Call Us Directly</h3>
             <p>Available during working hours</p>
             <p className="text-blue-400 ">
-              025 606 0995 <span className="text-white">/</span> 025 606 0996
+              +23325 606 0995 <span className="text-white">/</span> +23325 606
+              0996
             </p>
           </motion.div>
           <motion.div

@@ -7,13 +7,13 @@ export default function Home() {
     <section id="home" className="relative w-full h-screen overflow-hidden">
       <div className="w-screen h-screen overflow-hidden">
         <img
-          src="/images/hero.webp"
+          src="/images/heroimg.webp"
           alt="hero image"
           className="w-full h-full object-cover"
         />
       </div>
 
-      <div className="absolute inset-0 z-1  h-screen w-screen bg-[linear-gradient(to_bottom,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.6)_40%,rgba(0,0,0,0.8)_100%)]" />
+      <div className="absolute inset-0 z-1  h-screen w-screen bg-[linear-gradient(to_bottom,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.5)_40%,rgba(0,0,0,0.5)_100%)]" />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
