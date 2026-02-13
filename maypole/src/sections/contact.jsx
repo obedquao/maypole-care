@@ -32,6 +32,13 @@ export default function Contact() {
                 className="w-8 h-8"
               />
             </a>
+            <a href="https://wa.me/233256060995">
+              <img
+                src="/icons/whatsapp.png"
+                alt="whatsapp icon"
+                className="w-8 h-8"
+              />
+            </a>
           </div>
         </div>
 

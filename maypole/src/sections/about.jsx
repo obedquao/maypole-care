@@ -106,9 +106,9 @@ export default function About() {
           </li>
           <li className="flex bg-white  flex-col h-110 w-90 group overflow-hidden text-white rounded-lg shadow-lg">
             <img
-              src="/images/honesty.webp"
+              src="/images/newhonesty.webp"
               alt="Honesty image"
-              className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700 ease-in-out"
+              className="object-cover w-full h-67 group-hover:scale-110 transition-transform duration-700 ease-in-out"
             />
             <div className="flex  flex-col  justify-end px-5 pt-2 pb-5 gap-3 ">
               <h2 className="text-blue-500 font-bold text-3xl font-montserrat">

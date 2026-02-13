@@ -19,7 +19,7 @@ export default function Career() {
         <li className="">
           Flexible working hours (daytime, evening, live-in & weekend shifts)
         </li>
-        <li>Supportive management and peer support</li>
+        <li>Peer support</li>
         <li>Opportunities to grow within a caring professional environment</li>
       </ul>
 

@@ -7,7 +7,7 @@ export default function Home() {
     <section id="home" className="relative w-full h-screen overflow-hidden">
       <div className="w-screen h-screen overflow-hidden">
         <img
-          src="/images/heroimg.webp"
+          src="/images/newhero.jpg"
           alt="hero image"
           className="w-full h-full object-cover"
         />
@@ -35,7 +35,7 @@ export default function Home() {
           className="text-white text-2xl max-w-2xl font-poppins"
         >
           Delivering both compassionate, professional home and hospital care
-          services across the Greater Accra Region; <br />
+          services across the Greater Accra Region and environs; <br />
           24 hours a day/365 days a year.
         </motion.p>
         <motion.div
