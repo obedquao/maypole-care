@@ -26,7 +26,7 @@ export default function Navbar() {
         >
           <a href="" className="flex gap-2 justify-center items-center">
             <img src="logo.png" alt="company logo" className="w-12 h-auto" />
-            <p className="text-secondary font-extrabold text-3xl">
+            <p className="text-secondary font-black text-3xl">
               Maypole <span className="text-primary">Care</span>{" "}
             </p>
           </a>

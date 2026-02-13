@@ -34,7 +34,7 @@ export default function Career() {
         className="flex justify-center mt-10"
       >
         <a
-          href="mailto:info@maypolecare.com"
+          href="mailto:info@maypolecare.com?subject=Applying%20for%20the%20care%20giver%20position&body=Dear%20Maypole%20Care%20Team%2C%0A%0AI%20am%20interested%20in%20applying%20for%20the%20caregiver%20position.%20Please%20find%20my%20resume%20attached.%0A%0AThank%20you%20for%20considering%20my%20application.%0A%0ABest%20regards%2C%0A[Your Name]"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           Apply Now
