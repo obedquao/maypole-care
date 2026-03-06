@@ -52,7 +52,7 @@ export default function Contact() {
           appointments
         </p>
 
-        <div className="flex flex-col md:flex-row mt-15 gap-10 md:gap-20">
+        <div className="flex flex-col md:flex-row mt-15 gap-5 md:gap-10">
           <motion.div
             initial={{ opacity: 0, scale: 0.7 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -93,7 +93,7 @@ export default function Contact() {
             <h3>Visit Our Office</h3>
             <p>Available during working hours</p>
             <a href="#" className="text-blue-400 ">
-              Kasoa, Road of justice
+              Haatso-Ecomog last stop near Unique child academy, Accra-Ghana
             </a>
           </motion.div>
         </div>
