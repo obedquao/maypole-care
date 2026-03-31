@@ -63,9 +63,9 @@ export default function VideoSection() {
       </div>
 
       {/* Video Card */}
-      <div className="bg-white rounded-2xl shadow-md p-4 md:p-6">
+      <div className="bg-white md:rounded-2xl md:shadow-md p-2 md:p-6">
         {/* Video */}
-        <div className="aspect-video w-full mb-5">
+        <div className="aspect-video w-[calc(100%+2rem)] -mx-4 md:mx-0 md:w-full mb-5">
           <iframe
             key={current.embedUrl}
             src={current.embedUrl}
