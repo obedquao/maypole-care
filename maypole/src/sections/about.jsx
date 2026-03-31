@@ -1,4 +1,5 @@
 import { easeOut, motion } from "motion/react";
+import VideoSection from "../components/tabbed";
 
 export default function About() {
   return (
@@ -64,6 +65,9 @@ export default function About() {
           </p>
         </div>
       </motion.div>
+
+      {/* video Section */}
+      <VideoSection />
 
       {/* Values Section */}
       <div className="flex flex-col bg-gray-100 p-5 md:p-20 md:px-25 gap-5 md:gap-5">
