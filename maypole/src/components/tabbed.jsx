@@ -13,7 +13,7 @@ const videos = [
     label: "Ga",
     embedUrl: "https://www.youtube.com/embed/xO9ODTbgNiQ",
     description:
-      "A detailed explanation of our care services presented in the Ga language for better understanding by Ga-speaking families.",
+      "A detailed explanation of our care services presented in the Ga language for better understanding for Ga speaking families.",
   },
   {
     id: "twi",
